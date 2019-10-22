@@ -12,7 +12,7 @@ import 'h-vw'
 ```
 
 ### result
-clientWidth === 375
+document.documentElement.clientWidth === 375
 
 ### other usage
 ```
@@ -20,4 +20,4 @@ import vw from 'h-vw'
 vw(480);
 ```
 ### result
-clientWidth === 480
+document.documentElement.clientWidth === 480
