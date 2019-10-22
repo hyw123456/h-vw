@@ -2,38 +2,20 @@
 
 ## Project setup
 ```
-yarn install
+npm|yarn install h-vw
+```
+## Project usage
+```
+import 'h-vw'
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+### result
+clientWidth === 375
 
-### Compiles and minifies for production
+### other usage
 ```
-yarn run build
+import vw from 'h-vw'
+vw(480);
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your end-to-end tests
-```
-yarn run test:e2e
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### result
+clientWidth === 480
