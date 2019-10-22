@@ -2,7 +2,9 @@
 
 ## Project setup
 ```
-npm|yarn install h-vw
+npm i h-vw -S  
+or
+yarn add h-vw
 ```
 ## Project usage
 ```
