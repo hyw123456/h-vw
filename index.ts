@@ -9,10 +9,10 @@ export default function init(initWidth: number = 375) {
 }
 
 function clear() {
-  const meta = document.querySelectorAll('meta[name="viewport"]');
-  meta.forEach(i => {
-    document.head.removeChild(i)
-  })
+  let meta = document.querySelectorAll('meta[name="viewport"]'), length = meta.length;
+  for (let i = length - 1; i >= 0; i--) {
+    document.head.removeChild(meta[i])
+  }
 }
 
 init();
