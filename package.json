@@ -11,7 +11,10 @@
   },
   "keywords": [
     "viewport",
-    "375px"
+    "rem",
+    "Mobile adaptive scheme",
+    "Mobile adaptive",
+    "Mobile web"
   ],
   "author": "hyw",
   "license": "ISC",
