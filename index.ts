@@ -15,7 +15,7 @@ function clear(): void {
   }
 }
 
-init();
+// init();
 
 
 function ismobile(): boolean {

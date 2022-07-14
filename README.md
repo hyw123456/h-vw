@@ -12,6 +12,7 @@ yarn add h-vw
 ## Project usage
 ```
 import 'h-vw'
+vw(); //default = 375
 ```
 
 ## result
